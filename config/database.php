@@ -74,13 +74,14 @@ return [
             'schema' => 'public',
             'sslmode' => 'prefer',
         ],
+
         'pgsql_production' => [
             'driver' => 'pgsql',
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', 'ec2-174-129-18-247.compute-1.amazonaws.com'),
             'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'd73hi8t6dgfjpd'),
+            'username' => env('DB_USERNAME', 'jwifsexdehufqk'),
+            'password' => env('DB_PASSWORD', 'acdc7e3da97e3f76aad283a482294b8257fced4062e83d1d05b6593d99d296d2'),
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
